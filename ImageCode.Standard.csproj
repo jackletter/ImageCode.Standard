@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>提供图片的缩放、压缩、裁剪、二维码/条形码/验证码的生成</Description>
+    <PackageProjectUrl>https://github.com/jackletter/ImageCode.Standard</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>E:\jackletter\github\ImageCode.Standard\ImageCode.Standard.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
